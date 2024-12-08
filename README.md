@@ -1,11 +1,1 @@
-📂 Stock-Movement-Sentiment-Analysis
-├── 📁 data               # Folder for storing raw and processed datasets
-├── 📁 models             # Folder for storing trained models (Random Forest, LSTM)
-├── 📂 notebooks          # Jupyter notebooks for experimentation and visualization
-├── 📄 requirements.txt   # List of Python dependencies
-├── 📄 README.md          # Documentation (this file)
-├── 📄 main.py            # Main script to execute the end-to-end pipeline
-├── 📄 scraping.py        # Module for Reddit data scraping
-├── 📄 preprocessing.py   # Module for text preprocessing and sentiment analysis
-├── 📄 model.py           # Module for training the hybrid models
-└── 📄 evaluation.py      # Module for evaluating model performance
+This project leverages social media sentiment from Reddit to predict stock market movements. By scraping posts and comments from relevant subreddits, the project processes the text data to extract sentiment scores and other key features. A hybrid machine learning model is then trained, combining Random Forest for feature importance and LSTM for sequential pattern analysis. This innovative approach demonstrates the potential of user-generated content in forecasting stock trends, providing a foundation for future improvements and integration with multiple data sources. The project emphasizes sentiment analysis, data preprocessing, and predictive modeling to uncover insights into stock market behavior.
